@@ -29,6 +29,7 @@ body {
     flex-wrap: wrap;
     font-size: 80px;
     text-align: center;
+
 }
 .block{
     width: 100px;
@@ -36,6 +37,7 @@ body {
     height: 100px;
     border: 1px solid #000000;
     line-height: 80px;
+    background-color: #fff;
 }
 h3{
     line-height: 50px;

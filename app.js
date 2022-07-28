@@ -20,11 +20,11 @@ for (let i = 0; i < blocks.length; i++) {
             playerTurn.innerHTML = x;
         }
         //checking put able
-        if(blocks[i].innerHTML == x || blocks[i].innerHTML == o){
-            putAble = false;
-        }
-        else if(blocks[i].innerHTML != x || blocks[i].innerHTML != o){
+        if(blocks[i].innerHTML != x || blocks[i].innerHTML != o){
             putAble = true;
+        }
+        else {
+            putAble = false;
         }
         //checking WINner
         if(blocks[0].innerHTML == blocks[1].innerHTML && blocks[1].innerHTML == blocks[2].innerHTML && blocks[0].innerHTML != '' && someoneWin == false){
